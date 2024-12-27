@@ -1,0 +1,29 @@
+  .band-carousel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .band-item {
+    min-width: 120px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .band-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .band-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

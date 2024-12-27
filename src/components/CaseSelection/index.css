@@ -1,0 +1,31 @@
+.case-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.case-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.case-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.case-image {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}

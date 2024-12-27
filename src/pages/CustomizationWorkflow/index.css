@@ -1,0 +1,35 @@
+  .customization-workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .customization-section {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customization-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .customization-section-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
